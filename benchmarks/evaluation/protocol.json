@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "measurement_policy": "derive_from_evidence_linked_observations",
+  "project": "hr",
+  "scope": {
+    "agent_cases": 150,
+    "repeat_runs": 3,
+    "rag_samples": 120
+  },
+  "strata": {
+    "Agent": {
+      "jd_creation": 30,
+      "jd_and_criteria_editing": 15,
+      "resume_screening": 25,
+      "interview_planning": 15,
+      "exam_generation": 20,
+      "email_confirmation": 20,
+      "knowledge_qa": 15,
+      "chat_and_resource_boundaries": 10
+    },
+    "RAG": {
+      "recruitment_policy": 20,
+      "onboarding": 20,
+      "attendance": 20,
+      "compensation": 20,
+      "security_and_devices": 20,
+      "job_knowledge": 20
+    }
+  }
+}

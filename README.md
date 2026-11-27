@@ -156,3 +156,7 @@ uvicorn main:app --host 127.0.0.1 --port 8001
 | [系统架构](docs/architecture.md) | 路由、工具、Skill、RAG、文档、资源与前后端协议 |
 | [配置与运行](docs/setup.md) | 数据库、模型、Dify、远程服务、邮件与启动检查 |
 | [开发与验证](docs/development.md) | 主要接口、事件、验证矩阵、指标与功能扩展 |
+
+## 评测协议与结果汇总
+
+[评测模块](benchmarks/evaluation/README.md)定义分层测试范围、指标分母、证据记录和结果汇总命令。范围配置与实际结果分开保存，汇总报告同时输出覆盖检查及原始记录指纹。
