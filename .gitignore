@@ -9,3 +9,13 @@ build/
 uploads/
 logs/
 *.db
+
+# Private evaluation artifacts
+**/evals/reports/
+**/eval/reports/
+**/evaluation/reports/
+**/evaluation/artifacts/
+*.jsonl
+*.log
+*regression*.xml
+*junit*.xml
